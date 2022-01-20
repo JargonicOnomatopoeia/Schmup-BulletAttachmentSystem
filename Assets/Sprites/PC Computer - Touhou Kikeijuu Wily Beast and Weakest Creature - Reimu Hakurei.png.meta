@@ -1,0 +1,1572 @@
+fileFormatVersion: 2
+guid: d9c7faa5a96fd68439b4c6d04809164e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8313343355664264673
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_80
+  - first:
+      213: 7639254724420436977
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_93
+  - first:
+      213: -7550342622888723896
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_94
+  - first:
+      213: 7203787869632016278
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_81
+  - first:
+      213: 7538787232948324870
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_82
+  - first:
+      213: 1417866964661452632
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_95
+  - first:
+      213: -5877306972517083919
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_76
+  - first:
+      213: -4576710697186813439
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_96
+  - first:
+      213: 7988998352616793041
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_97
+  - first:
+      213: 4036074012001253313
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_98
+  - first:
+      213: -4657906195611226846
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_99
+  - first:
+      213: -2196216479757196724
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_100
+  - first:
+      213: 95232663991093629
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_101
+  - first:
+      213: -5074243654307115873
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_102
+  - first:
+      213: 6849071713226082691
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_72
+  - first:
+      213: -8960099677958569405
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_103
+  - first:
+      213: -9048785080066710813
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_104
+  - first:
+      213: 3703130532785143300
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_105
+  - first:
+      213: -6938356342066411197
+    second: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+      Hakurei_106
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 219
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.52, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 22}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d5d186e7be17550800000000000000
+      internalID: 6156961093737340215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 219
+        width: 25
+        height: 46
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 23}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76e5784d506c8720800000000000000
+      internalID: 2849758617982592638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 220
+        width: 25
+        height: 46
+      alignment: 9
+      pivot: {x: 0.52, y: 0.47826087}
+      border: {x: 0, y: 0, z: 0, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3b412e423468440800000000000000
+      internalID: 4937707867149218728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 220
+        width: 27
+        height: 45
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.4888889}
+      border: {x: 0, y: 0, z: 0, w: 23}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f617a6042e69e8520800000000000000
+      internalID: 2706266324583739759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_4
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 219
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 23}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17a7224db1f2e470800000000000000
+      internalID: 8422560048297256735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 220
+        width: 25
+        height: 44
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 22}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a87f8d4094f15450800000000000000
+      internalID: 6075906272913225897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 219
+        width: 27
+        height: 44
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5227273}
+      border: {x: 0, y: 0, z: 0, w: 21}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb248002caee4640800000000000000
+      internalID: 5066244749791603695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 220
+        width: 25
+        height: 43
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 21}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7683f0a547b2d4e30800000000000000
+      internalID: 4489292182285400167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_26
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 204
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d1640c987273130800000000000000
+      internalID: 3546346704167378335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_54
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 171
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.52, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 22}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e29ce085df703a0800000000000000
+      internalID: -6699107366043308465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_55
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 172
+        width: 24
+        height: 44
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 22}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cd530f29718c400800000000000000
+      internalID: 344551291356568733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_56
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 173
+        width: 25
+        height: 44
+      alignment: 9
+      pivot: {x: 0.48, y: 0.47727275}
+      border: {x: 0, y: 0, z: 0, w: 23}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9165a2a42e374fc90800000000000000
+      internalID: -7136952093731301863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_57
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 173
+        width: 24
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 21}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2337dcb308202a730800000000000000
+      internalID: 4008769368095552306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_58
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 173
+        width: 25
+        height: 42
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 21}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c56667caa09eb730800000000000000
+      internalID: 4016806980825277889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_59
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 172
+        width: 26
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 21}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcfbcdf0394e2410800000000000000
+      internalID: 1454180204452510928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_60
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 172
+        width: 26
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 22}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d913879470fdcdd50800000000000000
+      internalID: 6763525962794021277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_61
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 172
+        width: 25
+        height: 43
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 21}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfabfde6fbdf10b0800000000000000
+      internalID: -5755639945155072035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_62
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 123
+        width: 25
+        height: 45
+      alignment: 9
+      pivot: {x: 0.52, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b401e92b5c81ce30800000000000000
+      internalID: 4522049824029213877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_63
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 124
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5652174, y: 0.5227273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b09cfb4e36fda410800000000000000
+      internalID: 1490117799152750768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_64
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 124
+        width: 25
+        height: 44
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abe6c22e124e4530800000000000000
+      internalID: 3841080229393525666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_65
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 125
+        width: 24
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5833334, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b1f36f93cc7b020800000000000000
+      internalID: 2357577479268277136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_66
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 125
+        width: 25
+        height: 42
+      alignment: 9
+      pivot: {x: 0.64, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50327b355d650fa0800000000000000
+      internalID: -5835137529351622561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_67
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 124
+        width: 25
+        height: 43
+      alignment: 9
+      pivot: {x: 0.68, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2c288d55379a790800000000000000
+      internalID: -7518351290376469819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_68
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 124
+        width: 25
+        height: 43
+      alignment: 9
+      pivot: {x: 0.68, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f82527297cf19680800000000000000
+      internalID: -8749935003726173959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_69
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 124
+        width: 24
+        height: 43
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.4883721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2764a918ddf6470800000000000000
+      internalID: 8390168179523351207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_70
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 10
+        width: 176
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b4b37a15c7cfa00800000000000000
+      internalID: 791644324650240805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_71
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 16
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8cc2ca570458e80800000000000000
+      internalID: -8177058674277300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_73
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 106
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c992824f773885bd0800000000000000
+      internalID: -2641216630232176228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_74
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 106
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d1b2c6e2307a0e0800000000000000
+      internalID: -2258833190184870539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_75
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 106
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb1f31b5c79ef820800000000000000
+      internalID: 2953965280939678713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_77
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 108
+        width: 55
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae58cf8c7d325c080800000000000000
+      internalID: -9167882056745843222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_78
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 92
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b8890c7cf6b7a70800000000000000
+      internalID: 8825770798483016559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_79
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 92
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbfcd00a08784b60800000000000000
+      internalID: 7730560744740944837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_83
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 93
+        width: 54
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c84fb7dc8f2ab8d0800000000000000
+      internalID: -2829897133887371064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_84
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 76
+        width: 57
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e9d4bbfc1ae2bc0800000000000000
+      internalID: -3805926721508762084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_85
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 76
+        width: 57
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e48ed845d1d5cbb0800000000000000
+      internalID: -4916292704224246551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_86
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 76
+        width: 63
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c841c9214c9f49050800000000000000
+      internalID: 5806540440108536972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_87
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 47
+        width: 58
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdf2d8d2a0011da0800000000000000
+      internalID: -5975994531121529408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_88
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 47
+        width: 59
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ff5341499594160800000000000000
+      internalID: 7010232787508002583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 121
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f48492cab041ab0800000000000000
+      internalID: -5038389249065857140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_90
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 19
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e024e21ab0034d0800000000000000
+      internalID: -3157010551892996488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_91
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 19
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2345174fe312ef0800000000000000
+      internalID: -134757294250118448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_92
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 18
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23792fcc0e7213ee0800000000000000
+      internalID: -1283200572359272654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_80
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 92
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1217c5934211ac80800000000000000
+      internalID: -8313343355664264673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_93
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 91
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f30ec582b5140a60800000000000000
+      internalID: 7639254724420436977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_94
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 92
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84af93e436bc73790800000000000000
+      internalID: -7550342622888723896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_81
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 92
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f2fae66eef8f360800000000000000
+      internalID: 7203787869632016278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_82
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 92
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a8221db072f9860800000000000000
+      internalID: 7538787232948324870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_95
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 91
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f386ffd764da310800000000000000
+      internalID: 1417866964661452632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_76
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 115
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f45133a27c9f6ea0800000000000000
+      internalID: -5877306972517083919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_96
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 115
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a137e8ed14c70c0800000000000000
+      internalID: -4576710697186813439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_97
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 115
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3a7e69caf9ede60800000000000000
+      internalID: 7988998352616793041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_98
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 115
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7358c0ee3030830800000000000000
+      internalID: 4036074012001253313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_99
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 107
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d60856efacb5fb0800000000000000
+      internalID: -4657906195611226846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_100
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 107
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42a63a6fb87581e0800000000000000
+      internalID: -2196216479757196724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_101
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 107
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7904347a95525100800000000000000
+      internalID: 95232663991093629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_102
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 107
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c8e39e74aa499b0800000000000000
+      internalID: -5074243654307115873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_72
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 109
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389440c6f6acc0f50800000000000000
+      internalID: 6849071713226082691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_103
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 109
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3420037c0d457a380800000000000000
+      internalID: -8960099677958569405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_104
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 109
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2e4c589e14c6280800000000000000
+      internalID: -9048785080066710813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_105
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 109
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ebf8b7999246330800000000000000
+      internalID: 3703130532785143300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Kikeijuu Wily Beast and Weakest Creature - Reimu
+        Hakurei_106
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 19
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3498d0afaa106bf90800000000000000
+      internalID: -6938356342066411197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
