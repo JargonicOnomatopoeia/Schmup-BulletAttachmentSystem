@@ -43,6 +43,11 @@
      <Compile Include="Assets\Scripts\BulletController.cs" />
      <Compile Include="Assets\Scripts\Interfaces\iItemOnEquip.cs" />
      <Compile Include="Assets\Scripts\BulletMovement.cs" />
+     <Compile Include="Assets\Scriptable Objects\BulletPatternData.cs" />
+     <Compile Include="Assets\Scripts\BulletPattern.cs" />
+     <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\iBulletPattern.cs" />
+     <Compile Include="Assets\Scripts\BulletCoord.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Programs/UnityEditors/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
