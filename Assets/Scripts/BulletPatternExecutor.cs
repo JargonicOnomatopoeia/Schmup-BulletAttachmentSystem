@@ -28,5 +28,5 @@ public class BulletPatternExecutor : MonoBehaviour
            }
            return;
        }
-   }
+    }
 }

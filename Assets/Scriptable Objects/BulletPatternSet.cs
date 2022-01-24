@@ -67,9 +67,10 @@ public class BulletPatternSet : ScriptableObject, iBulletPattern
     }
 }
 
+[System.Serializable]
 public class BulletPatternSetProp{
 
-    public BulletPattern bp;
+    [SerializeReference] public iBulletPattern bp;
     public Timer startDelay; // waiting until it starts
     public Timer fireRate; //how fast does it need to fire
     public int repetition = 1; // how many times does the bullet pattern need to be executed

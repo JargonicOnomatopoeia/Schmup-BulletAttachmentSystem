@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Bullet Action Set", menuName = "Bullet Action Set", order = 1)]
 public class BulletActionSet : ScriptableObject
 {
-    public iBulletAction[] actions;
+    [SerializeReference] public iBulletAction[] actions;
     //Change On RunTime
     private int trav;
     private bool repInfinite;
