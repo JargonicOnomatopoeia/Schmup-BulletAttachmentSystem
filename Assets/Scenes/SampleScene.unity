@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 70636604}
+  - component: {fileID: 70636605}
   m_Layer: 0
   m_Name: Point
   m_TagString: Untagged
@@ -153,6 +154,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &70636605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70636603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc0aff667b6efa42809e559498cccb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bps:
+  - {fileID: 11400000, guid: 1311b276bfd02ef4eaf8efdd78ba1a6e, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,7 +276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819515117}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7632692, y: -2.0561175, z: -4.7949224}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -279,8 +294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edfc9e73e716f6d47b5901e19b1b98ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullets:
-  - {fileID: 11400000, guid: c308ac1b5cc1a674282a89eb15c05a74, type: 2}
 --- !u!1001 &4836952912878180558
 PrefabInstance:
   m_ObjectHideFlags: 0

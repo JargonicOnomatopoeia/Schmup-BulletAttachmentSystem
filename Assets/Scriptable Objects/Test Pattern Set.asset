@@ -9,9 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bad1b812e12b7d47973b90ea451b3a4, type: 3}
-  m_Name: 2
+  m_Script: {fileID: 11500000, guid: 2b831787c9b0e7e49907d4f72c3aabb6, type: 3}
+  m_Name: Test Pattern Set
   m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 11400000, guid: 604d83436356823488f7da74210a1581, type: 2}
+  set:
+  - bp: {fileID: 11400000, guid: bee92e6ec8b175a4797adb767d473811, type: 2}
+    startDelay:
+      maxTime: 1
+    fireRate:
+      maxTime: 3
+    repetition: 20
+    repInfinite: 0
+  repetition: 1
   repInfinite: 1

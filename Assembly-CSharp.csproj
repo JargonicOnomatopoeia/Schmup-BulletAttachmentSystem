@@ -39,8 +39,11 @@
      <Compile Include="Assets\Scripts\Interfaces\iItemOnEquip.cs" />
      <Compile Include="Assets\Scripts\BulletController.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\iBulletPatternSet.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\iBulletAction.cs" />
+     <Compile Include="Assets\Scriptable Objects\BulletMoveForward.cs" />
      <Compile Include="Assets\Scriptable Objects\BulletActionSet.cs" />
-     <Compile Include="Assets\Scriptable Objects\BulletPattern.cs" />
+     <Compile Include="Assets\Scriptable Objects\BulletPatternRadial.cs" />
      <Compile Include="Assets\Scriptable Objects\BulletPatternSet.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\BulletPatternExecutor.cs" />
@@ -49,9 +52,8 @@
      <Compile Include="Assets\Scripts\PlayerShoot.cs" />
      <Compile Include="Assets\Scripts\BulletCoord.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Interfaces\iBulletPatternSet.cs" />
-     <Compile Include="Assets\Scripts\Interfaces\iBulletAction.cs" />
-     <Compile Include="Assets\Scriptable Objects\BulletMoveForward.cs" />
+     <Compile Include="Assets\Scriptable Objects\BulletMove.cs" />
+     <Compile Include="Assets\Scriptable Objects\BulletPattern.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Programs/UnityEditors/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -645,6 +647,12 @@
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>E:/Unity_Saves/TouhouBulletCustomization/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="MackySoft.SerializeReferenceExtensions.Editor">
+        <HintPath>E:/Unity_Saves/TouhouBulletCustomization/Library/ScriptAssemblies/MackySoft.SerializeReferenceExtensions.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="MackySoft.SerializeReferenceExtensions">
+        <HintPath>E:/Unity_Saves/TouhouBulletCustomization/Library/ScriptAssemblies/MackySoft.SerializeReferenceExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>E:/Unity_Saves/TouhouBulletCustomization/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>

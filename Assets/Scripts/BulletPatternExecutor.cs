@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class BulletPatternExecutor : MonoBehaviour
 {
-    [SerializeReference]
-    public iBulletPattern[] bps;
+    public BulletPattern[] bps;
     private int trav;
 
     private void Start(){
@@ -16,14 +15,14 @@ public class BulletPatternExecutor : MonoBehaviour
     }
 
     private void Update(){
-       if(bps[trav].End()){
+       if(bps[trav].End() == true){
            trav++;
            return;
        }
 
        if(trav < bps.Length){
            BulletCoord[] temp = bps[trav].Execute();
-           for(int x = 0; x < temp.Length;x++){
+           for(int x = 0;temp != null && x < temp.Length;x++){
                Instantiate(temp[x].bullet, temp[x].coord, temp[x].angle);
            }
            return;
