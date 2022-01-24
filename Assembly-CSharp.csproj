@@ -36,18 +36,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Movement.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
-     <Compile Include="Assets\Scriptable Objects\Bullet.cs" />
-     <Compile Include="Assets\Scripts\BulletController.cs" />
      <Compile Include="Assets\Scripts\Interfaces\iItemOnEquip.cs" />
-     <Compile Include="Assets\Scripts\BulletMovement.cs" />
-     <Compile Include="Assets\Scriptable Objects\BulletPatternData.cs" />
-     <Compile Include="Assets\Scripts\BulletPattern.cs" />
+     <Compile Include="Assets\Scripts\BulletController.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scriptable Objects\BulletActionSet.cs" />
+     <Compile Include="Assets\Scriptable Objects\BulletPattern.cs" />
+     <Compile Include="Assets\Scriptable Objects\BulletPatternSet.cs" />
+     <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\BulletPatternExecutor.cs" />
      <Compile Include="Assets\Scripts\Interfaces\iBulletPattern.cs" />
+     <Compile Include="Assets\Scripts\BulletMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
      <Compile Include="Assets\Scripts\BulletCoord.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\iBulletPatternSet.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\iBulletAction.cs" />
+     <Compile Include="Assets\Scriptable Objects\BulletMoveForward.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Programs/UnityEditors/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

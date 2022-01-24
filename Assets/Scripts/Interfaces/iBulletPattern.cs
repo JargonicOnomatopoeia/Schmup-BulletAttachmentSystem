@@ -3,6 +3,6 @@ using UnityEngine;
 public interface iBulletPattern
 {
     public void Initialize();
-    public BulletCoord[] Action();
-    public void End();
+    public BulletCoord[] Execute();
+    public bool End();
 }

@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
-    [SerializeField] private Bullet baseBullet;
+    //[SerializeField] private Bullet baseBullet;
 
     private void Start(){
-        BulletController.AddBullet(baseBullet);
+        //BulletController.AddBullet(baseBullet);
     }
 
     private void Update(){
         if((Input.GetButtonDown("Fire1") && Input.GetButton("Fire2")) || (Input.GetButton("Fire1") && Input.GetButtonDown("Fire2"))){
-            BulletController.bc.bullets.ForEach(i => i.SetAllCurrentTime(i.focusBullets, Time.time));
+            //BulletController.bc.bullets.ForEach(i => i.SetAllCurrentTime(i.focusBullets, Time.time));
         }
-        if(Input.GetButton("Fire1") && Input.GetButton("Fire2")){
+        /*if(Input.GetButton("Fire1") && Input.GetButton("Fire2")){
             foreach (Bullet i in BulletController.bc.bullets)
             {
                 List<GameObject> temp = i.FocusFire();
@@ -40,6 +40,6 @@ public class PlayerShoot : MonoBehaviour
                 }
             }
             return;
-        }
+        }*/
     }
 }

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullets:
   - bullet: {fileID: 7118507625649850197, guid: cd5c2c9a15ed3784ba096b9a60cd3ae5, type: 3}
-    delay: 0.2
+    delay: 1
   focusBullets: []
