@@ -26,7 +26,7 @@ public class BulletMoveForward : ScriptableObject, iBulletAction
     }   
 
     public bool End(Transform transform){
-        if(transform != null && (Vector2)transform.position == distancePos){
+        if(transform != null && (Vector2)transform.position == distancePos && disInfinite != true){
             distancePos = Vector2.zero;
             return true;
         }
