@@ -30,7 +30,8 @@ public class BulletPatternRadial : BulletPattern
         float r = (ellipse.x*ellipse.y)/Mathf.Sqrt(parameter1 + parameter2);
 
         //Finding the point from the radius
-        Vector2 point = new Vector2(ellipse.x * (r * Mathf.Cos((float)(angle *  Mathf.PI/180.0))) , ellipse.y * (r * Mathf.Sin((float)(angle *  Mathf.PI/180.0))));
+        float calc = (float)(angle *  Mathf.PI/180.0);
+        Vector2 point = new Vector2(ellipse.x * (r * Mathf.Cos(calc)) , ellipse.y * (r * Mathf.Sin(calc)));
 
         return new BulletCoord(point + center, angle, bullet);
     }
@@ -70,8 +71,7 @@ public class BulletPatternRadial : BulletPattern
     
     //Finding the semi major and semi minor lengths of the ellipse
     public override void Initialize(){
-        //a = (ellipse.x > ellipse.y)?ellipse.x:ellipse.y;
-        //b = (ellipse.x != a)?ellipse.x:ellipse.y;
+        
     }
 
     public override BulletCoord[] Execute(){

@@ -15,9 +15,8 @@ public class BulletPatternExecutor : MonoBehaviour
     }
 
     private void Update(){
-       if(bps[trav].End() == true){
+       if(trav < bps.Length && bps[trav].End()){
            trav++;
-           return;
        }
 
        if(trav < bps.Length){

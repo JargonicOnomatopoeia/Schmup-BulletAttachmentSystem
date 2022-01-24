@@ -10,23 +10,24 @@ public class BulletPatternSet : BulletPattern
     public bool repInfinite; // Ignores int repetition. 
 
     //Change On Runtime
-    private int setTrav;
+    [SerializeField] private int setTrav;
     private BulletPatternSetProp currentBPS;
-    private int currentRep;
+    [SerializeField] private int currentRep;
 
     public override void Initialize(){
+        setTrav = 0;
+        currentRep = 0;
         currentBPS = set[setTrav];
-        currentBPS.bp.Initialize();
-        currentBPS.fireRate.SetCurrentTime();
-        currentBPS.startDelay.SetCurrentTime();
+        currentBPS.Initialize(Time.time);
     }
 
     public override BulletCoord[] Execute(){
-        BulletCoord[] coords = null;
-
-        if(currentRep == repetition && repInfinite == false){
+        if(currentRep >= repetition && repInfinite == false){
             return null;
         }
+
+        BulletCoord[] coords = null;
+
         if(setTrav < set.Length && set[setTrav].startDelay.CheckTimer()){
             if(currentBPS.fireRate.CheckTimer() && currentBPS.CheckRepetitionIfLess()){
                 coords = currentBPS.bp.Execute(); //gets all coords,  angles, and bullets of this bullet pattern 
@@ -36,18 +37,19 @@ public class BulletPatternSet : BulletPattern
 
             //Check if current pattern is finished assuming repinfinite is not TRUE
             if(!currentBPS.CheckRepetitionIfLess()){
-                setTrav++;
+                setTrav++; //Next Pattern
+                //End Current Pattern
                 currentBPS.End();
-                currentBPS.bp.End();
-                currentBPS = set[setTrav];
-                currentBPS.bp.Initialize();
-                currentBPS.startDelay.SetCurrentTime(Time.time);
-                currentBPS.fireRate.SetCurrentTime();
+                if(setTrav >= set.Length){
+                    //Repetition increase by one if all patterns are done
+                    currentRep = (repInfinite)?++currentRep % repetition: ++currentRep;
+                    setTrav = setTrav % set.Length;
+                }
 
-            }
-            //Check if this pattern set is done. Resets everything if repInfinite of this set is TRUE
-            if(setTrav >= set.Length){
-                currentRep = (repInfinite)?currentRep % repetition: currentRep++;
+                if(setTrav < set.Length){
+                    currentBPS = set[setTrav];
+                    currentBPS.Initialize(Time.time);
+                }
             }
         }
 
@@ -55,41 +57,17 @@ public class BulletPatternSet : BulletPattern
     }
 
     public override bool End(){
-        if(currentRep >= repetition && repInfinite == false){
+
+        if(currentRep >= repetition){
             setTrav = 0;
             currentRep = 0;
+            currentBPS = null;
             for(int x = 0 ; x < set.Length;x++){
-                set[x].startDelay.SetCurrentTime();
-                set[x].fireRate.SetCurrentTime();
+                set[x].End();
             }   
             return true;
         }
 
         return false;
-    }
-}
-
-[System.Serializable]
-public class BulletPatternSetProp{
-
-    public BulletPattern bp;
-    public Timer startDelay; // waiting until it starts
-    public Timer fireRate; //how fast does it need to fire
-    public int repetition = 1; // how many times does the bullet pattern need to be executed
-    public bool repInfinite; //Ignores int repetition. NOTE: it won't go to the next set if this is TRUE
-
-    //On RunTime
-    private int currentRepetition;
-
-    public void IncreaseRepitition(){
-        currentRepetition = (repInfinite)? currentRepetition % repetition: currentRepetition++;
-    }
-
-    public bool CheckRepetitionIfLess(){
-        return currentRepetition < repetition;
-    }
-
-    public void End(){
-        currentRepetition = 0;
     }
 }
