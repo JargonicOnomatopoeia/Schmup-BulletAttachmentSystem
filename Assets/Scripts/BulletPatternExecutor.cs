@@ -1,19 +1,21 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletPatternExecutor : MonoBehaviour
 {
-   [SerializeField] private iBulletPattern[] bps;
-   private int trav;
+    [SerializeReference]
+    public iBulletPattern[] bps;
+    private int trav;
 
-   private void Start(){
+    private void Start(){
        for(int x = 0; x < bps.Length;x++){
            bps[x].Initialize();
        }
-   }
+    }
 
-   private void Update(){
+    private void Update(){
        if(bps[trav].End()){
            trav++;
            return;

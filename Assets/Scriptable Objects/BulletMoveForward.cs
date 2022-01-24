@@ -18,6 +18,7 @@ public class BulletMoveForward : ScriptableObject, iBulletAction
     }
 
     public Transform Action(Transform transform ){
+        //Moves Forward
         if(transform != null){
             transform.Translate(new Vector2( distance, 0f), Space.Self);
         }
@@ -26,6 +27,7 @@ public class BulletMoveForward : ScriptableObject, iBulletAction
     }   
 
     public bool End(Transform transform){
+        //Checks if bullet reaches its destination
         if(transform != null && (Vector2)transform.position == distancePos && disInfinite != true){
             distancePos = Vector2.zero;
             return true;
