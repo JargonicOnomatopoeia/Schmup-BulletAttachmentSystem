@@ -12,12 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3604926d8fc58ea4c8b8b86c36684653, type: 3}
   m_Name: Test Pattern Radial 2
   m_EditorClassIdentifier: 
-  bullets: []
-  centerOffsets: []
-  ellipse: {x: 0, y: 0}
-  bulletArray: 0
+  bullets:
+  - {fileID: 2915019995324382352, guid: 7dad752ef2d4b714394eda13beffe8fb, type: 3}
+  - {fileID: 7118507625649850197, guid: cd5c2c9a15ed3784ba096b9a60cd3ae5, type: 3}
+  isPerfectRadial: 0
+  isSpinning: 0
+  isInvertSpin: 0
+  spinAngleSkip: 0
+  spinSpeed: 0
+  spinMaxSpeed: 0
+  centerOffsets:
+  - {x: 0, y: 0}
+  ellipse: {x: 1.5, y: 1.5}
+  bulletArray: 1
   bulletSpread: 0
   randomSpread: 0
   startingAngle: 0
-  bulletArrayAngle: 0
+  bulletArrayAngle: 10
   bulletSpreadAngle: 0

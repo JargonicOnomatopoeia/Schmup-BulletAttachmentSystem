@@ -15,10 +15,26 @@ MonoBehaviour:
   set:
   - bp: {fileID: 11400000, guid: bee92e6ec8b175a4797adb767d473811, type: 2}
     startDelay:
+      maxTime: 0
+    fireRate:
+      maxTime: 0.2
+    repetition: 3
+    repInfinite: 0
+  - bp: {fileID: 11400000, guid: 20297657ccdb5d94a9f846eb3a45368c, type: 2}
+    startDelay:
       maxTime: 1
     fireRate:
-      maxTime: 3
-    repetition: 20
+      maxTime: 0.5
+    repetition: 2
     repInfinite: 0
+  - bp: {fileID: 11400000, guid: 46ad1398684c4ba409bcf139be9c536a, type: 2}
+    startDelay:
+      maxTime: 1
+    fireRate:
+      maxTime: 0.5
+    repetition: 2
+    repInfinite: 1
   repetition: 1
-  repInfinite: 1
+  repInfinite: 0
+  setTrav: 2
+  currentRep: 0

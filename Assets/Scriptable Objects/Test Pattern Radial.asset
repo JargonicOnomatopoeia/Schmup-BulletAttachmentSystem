@@ -14,9 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullets:
   - {fileID: 2915019995324382352, guid: 7dad752ef2d4b714394eda13beffe8fb, type: 3}
+  isPerfectRadial: 0
+  isSpinning: 1
+  isInvertSpin: 0
+  spinAngleSkip: 5
+  spinSpeed: 5
+  spinMaxSpeed: 0
   centerOffsets:
   - {x: 0, y: 0}
-  ellipse: {x: 1, y: 1}
+  ellipse: {x: 2, y: 2}
   bulletArray: 6
   bulletSpread: 0
   randomSpread: 0
