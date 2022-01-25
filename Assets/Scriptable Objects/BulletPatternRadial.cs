@@ -48,7 +48,7 @@ public class BulletPatternRadial : BulletPattern
     private float[] Spin(float[] angles){
         int angleSpin = (isInvertSpin)?-1 * angleSpinCounter: angleSpinCounter;
         for(int x = 0; x < angles.Length;x++){
-            angles[x] = Mathf.Lerp(angles[x], angles[x] + (spinAngleSkip * angleSpin), spinSpeed * Time.deltaTime);
+            angles[x] = Mathf.Lerp(angles[x] + (spinAngleSkip * (angleSpin-1)), angles[x] + (spinAngleSkip * angleSpin), spinSpeed * Time.deltaTime);
             Debug.Log(angles[x]);
         }
         angleSpinCounter++;
@@ -72,6 +72,11 @@ public class BulletPatternRadial : BulletPattern
             }
             x += y;
         }
+
+        if(isSpinning){
+            angles = Spin(angles);
+        }
+
         int z1 = 0;
         for(int x = 0; x < angles.Length ;x++){
             angles[x] += Random.Range(-randomSpread, randomSpread );
@@ -81,9 +86,7 @@ public class BulletPatternRadial : BulletPattern
             }
         }
 
-        if(isSpinning){
-            angles = Spin(angles);
-        }
+        
 
         if(currentBullet < bullets.Length){
             currentBullet = ++currentBullet % bullets.Length;
@@ -126,7 +129,7 @@ public class BulletPatternRadial : BulletPattern
     
     //Finding the semi major and semi minor lengths of the ellipse
     public override void Initialize(){
-        angleSpinCounter = 0;
+        angleSpinCounter = 1;
         currentBullet = 0;
     }
 
@@ -139,7 +142,7 @@ public class BulletPatternRadial : BulletPattern
 
     public override bool End(){
         currentBullet = 0;
-        angleSpinCounter = 0;
+        angleSpinCounter = 1;
         return true;
     } 
 }
