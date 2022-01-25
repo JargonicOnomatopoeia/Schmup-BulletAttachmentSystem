@@ -6,6 +6,7 @@ using UnityEngine;
 public class BulletPatternRadial : BulletPattern
 {
     public GameObject[] bullets;
+    public bool isPerfectRadial; //ignores 
     //Circle/Ellipse Radius
     public Vector2[] centerOffsets;
     public Vector2 ellipse;
@@ -68,6 +69,34 @@ public class BulletPatternRadial : BulletPattern
 
         return coords;
     }
+
+    private BulletCoord[] InitializeBulletCoordPerfectRadial(){
+        int combineArray = bulletArray + bulletSpread;
+        float anglePerArray = 360/(combineArray);
+        float[] angles = new float[combineArray];
+
+        angles[0] = anglePerArray;
+        for(int x = 1; x < combineArray;x++){
+            angles[x] = angles[x-1] + anglePerArray;
+            angles[x] += Random.Range(-randomSpread, randomSpread);
+        }
+
+        BulletCoord[] coords = new BulletCoord[combineArray * centerOffsets.Length];
+
+        int z = 0;
+        for(int x = 0; x < combineArray;x++){
+            for(int y = 0; y < centerOffsets.Length;y++){
+                coords[z] = SetBulletCoord(angles[x], centerOffsets[y], bullets[currentBullet]);
+                z++;
+            }
+        }
+
+        if(currentBullet < bullets.Length){
+            currentBullet = ++currentBullet % bullets.Length;
+        }
+
+        return coords;
+    } 
     
     //Finding the semi major and semi minor lengths of the ellipse
     public override void Initialize(){
@@ -75,7 +104,10 @@ public class BulletPatternRadial : BulletPattern
     }
 
     public override BulletCoord[] Execute(){
-        return InitializeBulletCoord();
+        switch(isPerfectRadial){
+            case true: return InitializeBulletCoordPerfectRadial() ;
+            case false: return InitializeBulletCoord();
+        }
     }   
 
     public override bool End(){

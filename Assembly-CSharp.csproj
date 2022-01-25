@@ -54,7 +54,6 @@
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scriptable Objects\BulletMove.cs" />
      <Compile Include="Assets\Scriptable Objects\BulletPattern.cs" />
-     <Compile Include="Assets\Scriptable Objects\BulletPatternPerfectRadial.cs" />
      <Compile Include="Assets\Scripts\BulletPatternSetProp.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Programs/UnityEditors/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
