@@ -6,7 +6,14 @@ using UnityEngine;
 public class BulletPatternRadial : BulletPattern
 {
     public GameObject[] bullets;
-    public bool isPerfectRadial; //ignores 
+    public bool isPerfectRadial;
+
+    //Spin Variables
+    public bool isSpinning;
+    public bool isInvertSpin;
+    public float spinAngleSkip;
+    public float spinSpeed;
+    public float spinMaxSpeed;
     //Circle/Ellipse Radius
     public Vector2[] centerOffsets;
     public Vector2 ellipse;
@@ -23,6 +30,7 @@ public class BulletPatternRadial : BulletPattern
 
     //Change On Run Time
     private int currentBullet;
+    private int angleSpinCounter;
 
     private BulletCoord SetBulletCoord(float angle, Vector2 center, GameObject bullet){
         //Finding The Radius from and ellipse (oval)
@@ -35,6 +43,16 @@ public class BulletPatternRadial : BulletPattern
         Vector2 point = new Vector2(ellipse.x * (r * Mathf.Cos(calc)) , ellipse.y * (r * Mathf.Sin(calc)));
 
         return new BulletCoord(point + center, angle, bullet);
+    }
+
+    private float[] Spin(float[] angles){
+        int angleSpin = (isInvertSpin)?-1 * angleSpinCounter: angleSpinCounter;
+        for(int x = 0; x < angles.Length;x++){
+            angles[x] = Mathf.Lerp(angles[x], angles[x] + (spinAngleSkip * angleSpin), spinSpeed * Time.deltaTime);
+            Debug.Log(angles[x]);
+        }
+        angleSpinCounter++;
+        return angles;
     }
 
     private BulletCoord[] InitializeBulletCoord (){
@@ -63,6 +81,10 @@ public class BulletPatternRadial : BulletPattern
             }
         }
 
+        if(isSpinning){
+            angles = Spin(angles);
+        }
+
         if(currentBullet < bullets.Length){
             currentBullet = ++currentBullet % bullets.Length;
         }
@@ -79,6 +101,10 @@ public class BulletPatternRadial : BulletPattern
         for(int x = 1; x < combineArray;x++){
             angles[x] = angles[x-1] + anglePerArray;
             angles[x] += Random.Range(-randomSpread, randomSpread);
+        }
+
+        if(isSpinning){
+            angles = Spin(angles);
         }
 
         BulletCoord[] coords = new BulletCoord[combineArray * centerOffsets.Length];
@@ -100,7 +126,8 @@ public class BulletPatternRadial : BulletPattern
     
     //Finding the semi major and semi minor lengths of the ellipse
     public override void Initialize(){
-        
+        angleSpinCounter = 0;
+        currentBullet = 0;
     }
 
     public override BulletCoord[] Execute(){
@@ -112,7 +139,7 @@ public class BulletPatternRadial : BulletPattern
 
     public override bool End(){
         currentBullet = 0;
-
+        angleSpinCounter = 0;
         return true;
     } 
 }
